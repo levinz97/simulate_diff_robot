@@ -1,0 +1,13 @@
+geometry:
+  # linear velocity in x, y, z direction
+  linear_velocity_x: 0.1 # m/s
+  linear_velocity_y: 0.0
+  linear_velocity_z: 0.0
+  # angular velocity along x, y, z axis
+  angular_velocity_x: 0.0 # rad/s
+  angular_velocity_y: 0.0
+  angular_velocity_z: 0.5
+
+
+
+    

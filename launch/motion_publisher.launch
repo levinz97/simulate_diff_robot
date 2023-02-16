@@ -1,0 +1,10 @@
+<launch>
+
+  <rosparam command="load"
+            file="$(find simulate_robot)/config/motion.yaml" 
+            ns="simulate_robot"/>
+
+  <node name="motion_publisher" pkg="simulate_robot" type="simulate_robot_node" required="true" output="screen"/>
+
+
+</launch>
