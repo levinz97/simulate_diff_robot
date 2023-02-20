@@ -10,7 +10,9 @@
 
 ![ROS Node Graph](doc/rosgraph.png)
 
-This project includes a setup for the simulation of a differentiable robot in Gazebo. An overview of ROS node graph as above.
+This project includes a setup for the simulation of a differentiable robot in Gazebo under _ROS Noetic_ .
+
+An overview of ROS node graph as above.
 
 
 ## Usage <a name = "usage"></a>
@@ -44,12 +46,14 @@ the velocity is configurable under ```/config/motion.yaml```
 
 or launch the both in one line
 
- ``` roslaunch simulate_robot toplevel.launch  ```
+ ``` 
+ roslaunch simulate_robot toplevel.launch
+ ```
  or 
-```
-roscd simulate_robot
-./script/run_simulation.sh
-```
+ ```
+ roscd simulate_robot
+ ./script/run_simulation.sh
+ ```
 
 ## Thanks <a name = "Thanks"></a>
 
